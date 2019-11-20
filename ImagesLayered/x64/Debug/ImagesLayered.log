@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  test.cpp
+  restful_server.cpp
+  ImagesLayered.cpp
+  main.cpp
+f:\code_clone\media_server_2019\recognition\identification\imageslayered\main.cpp(44): warning C4101: “url”: 未引用的局部变量
+  正在生成代码...
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+ImagesLayered.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl cv::imwrite(class cv::String const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBVString@1@AEBV_InputArray@debug_build_guard@1@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z)，该符号在函数 "public: void __cdecl wrapper::func_ImageLayer_First(struct layerParams &)" (?func_ImageLayer_First@wrapper@@QEAAXAEAUlayerParams@@@Z) 中被引用
+ImagesLayered.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::resize(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@V?$Size_@H@1@NNH@Z)，该符号在函数 "public: void __cdecl wrapper::func_ImageLayer_First(struct layerParams &)" (?func_ImageLayer_First@wrapper@@QEAAXAEAUlayerParams@@@Z) 中被引用
+../bin\ImagesLayered.exe : fatal error LNK1120: 2 个无法解析的外部命令
